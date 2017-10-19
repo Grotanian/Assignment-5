@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Products_Management" class="navigator-link">
+              <span class="suite-name border-passed">Products Management</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Products_Management" class="navigator-link ">
+                    <span>C:\Users\tkuti\Videos\QATestLab\qatestlab_automation-lecture-5_improved\target\test-classes\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Products_Management" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Products_Management" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Products_Management" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Products_Management" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Products_Management" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Products_Management" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Products_Management" class="hide-methods passed suite-Products_Management"> (hide)</a> <!-- hide-methods passed suite-Products_Management -->
+                      <a href="#" panel-name="suite-Products_Management" class="show-methods passed suite-Products_Management"> (show)</a> <!-- show-methods passed suite-Products_Management -->
+                    </span>
+                    <div class="method-list-content passed suite-Products_Management">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Products_Management" title="myprojects.automation.assignment5.tests.PlaceOrderTest" class="method navigator-link" hash-for-method="checkSiteVersion">checkSiteVersion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Products_Management" title="myprojects.automation.assignment5.tests.PlaceOrderTest" class="method navigator-link" hash-for-method="createNewOrder">createNewOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Products_Management" title="myprojects.automation.assignment5.tests.PlaceOrderTest" class="method navigator-link" hash-for-method="fillInOrderInfo">fillInOrderInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Products_Management -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Products_Management" class="panel Products_Management">
+          <div class="suite-Products_Management-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">myprojects.automation.assignment5.tests.PlaceOrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSiteVersion">
+                  </a> <!-- checkSiteVersion -->
+                  <span class="method-name">checkSiteVersion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewOrder">
+                  </a> <!-- createNewOrder -->
+                  <span class="method-name">createNewOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillInOrderInfo">
+                  </a> <!-- fillInOrderInfo -->
+                  <span class="method-name">fillInOrderInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Products_Management-class-passed -->
+        </div> <!-- panel Products_Management -->
+        <div panel-name="test-xml-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\tkuti\Videos\QATestLab\qatestlab_automation-lecture-5_improved\target\test-classes\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Products Management&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test name=&quot;Create New Order [Chrome]&quot;&gt;
+    &lt;parameter name=&quot;selenium.browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;myprojects.automation.assignment5.tests.PlaceOrderTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create New Order [Chrome] --&gt;
+&lt;/suite&gt; &lt;!-- Products Management --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Products Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Create New Order [Chrome] (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Products Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Products Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Products_Management');
+function tableData_Products_Management() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'fillInOrderInfo')
+data.setCell(0, 2, 'myprojects.automation.assignment5.tests.PlaceOrderTest')
+data.setCell(0, 3, 12047);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createNewOrder')
+data.setCell(1, 2, 'myprojects.automation.assignment5.tests.PlaceOrderTest')
+data.setCell(1, 3, 5686);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkSiteVersion')
+data.setCell(2, 2, 'myprojects.automation.assignment5.tests.PlaceOrderTest')
+data.setCell(2, 3, 2664);
+window.suiteTableData['Products_Management']= { tableData: data, tableDiv: 'times-div-Products_Management'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <div id="times-div-Products_Management">
+              </div> <!-- times-div-Products_Management -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Products Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkSiteVersion</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[17:07:37.2523653] Navigate to http://prestashop-automation.qatestlab.com.ua/</span>
+                <span class="reporter-method-output">[17:07:39.8218619] Search for element By.cssSelector: #_desktop_currency_selector > div</span>
+                <span class="reporter-method-output">[17:07:39.8755014] Search for element By.xpath: //*[@id='carousel']/ul/li[1]/figure/img</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createNewOrder</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[17:07:39.9150813] Search for element By.xpath: //*[@id='content']/section/a</span>
+                <span class="reporter-method-output">[17:07:39.9371396] Execute script: arguments[0].click()</span>
+                <span class="reporter-method-output">[17:07:41.0364876] Script executed</span>
+                <span class="reporter-method-output">[17:07:41.0364876] Search for element By.xpath: //*[@id='main']/div[1]/h1</span>
+                <span class="reporter-method-output">[17:07:41.0896254] Search for element By.xpath: //*[@class='thumbnail product-thumbnail']</span>
+                <span class="reporter-method-output">[17:07:41.1126857] Execute script: arguments[0].click()</span>
+                <span class="reporter-method-output">[17:07:42.4334208] Script executed</span>
+                <span class="reporter-method-output">[17:07:42.433923] Search for element By.cssSelector: .btn.btn-primary.add-to-cart</span>
+                <span class="reporter-method-output">[17:07:42.4840617] ACTION: Get information about currently opened product</span>
+                <span class="reporter-method-output">[17:07:42.4845556] Search for element By.cssSelector: .h1</span>
+                <span class="reporter-method-output">[17:07:42.5241589] Search for element By.cssSelector: .current-price > span:nth-child(1)</span>
+                <span class="reporter-method-output">[17:07:42.5632596] Execute script: scroll(0, 350)</span>
+                <span class="reporter-method-output">[17:07:42.5697763] Script executed</span>
+                <span class="reporter-method-output">[17:07:42.5697763] Search for element By.cssSelector: li.nav-item:nth-child(2) > a:nth-child(1)</span>
+                <span class="reporter-method-output">[17:07:42.6259236] Search for element By.cssSelector: li.nav-item:nth-child(2) > a:nth-child(1)</span>
+                <span class="reporter-method-output">[17:07:42.6424828] Click on element a</span>
+                <span class="reporter-method-output">[17:07:42.7086389] Search for element By.cssSelector: .h6</span>
+                <span class="reporter-method-output">[17:07:43.2727797] Search for element By.cssSelector: .product-quantities > span:nth-child(2)</span>
+                <span class="reporter-method-output">[17:07:43.3188842] Search for element By.xpath: //*[@id='add-to-cart-or-refresh']/div[2]/div[1]/div[2]/button</span>
+                <span class="reporter-method-output">[17:07:43.3514698] Click on element button</span>
+                <span class="reporter-method-output">[17:07:43.4071149] Search for element By.xpath: //*[@id='blockcart-modal']/div/div/div[2]/div/div[2]/div/button</span>
+                <span class="reporter-method-output">[17:07:44.3234637] Search for element By.xpath: //*[@id='blockcart-modal']/div/div/div[2]/div/div[2]/div/a</span>
+                <span class="reporter-method-output">[17:07:44.3585551] Click on element a</span>
+                <span class="reporter-method-output">[17:07:45.4262856] Search for element By.cssSelector: i.pull-xs-left</span>
+                <span class="reporter-method-output">[17:07:45.486443] Search for element By.cssSelector: a.label:nth-child(1)</span>
+                <span class="reporter-method-output">[17:07:45.5300568] Search for element By.cssSelector: span.value:nth-child(1)</span>
+                <span class="reporter-method-output">[17:07:45.5731699] Search for element By.cssSelector: .js-cart-line-product-quantity</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">fillInOrderInfo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[17:07:45.6022448] Search for element By.xpath: //*[@class='btn btn-primary']</span>
+                <span class="reporter-method-output">[17:07:45.6217969] Execute script: arguments[0].click()</span>
+                <span class="reporter-method-output">[17:07:46.6962605] Script executed</span>
+                <span class="reporter-method-output">[17:07:46.6962605] Search for element By.xpath: //*[@class='custom-radio']</span>
+                <span class="reporter-method-output">[17:07:46.7629342] Search for element By.name: firstname</span>
+                <span class="reporter-method-output">[17:07:46.7950232] Change value of input: Tetiana
+</span>
+                <span class="reporter-method-output">[17:07:46.8857572] Changed element input</span>
+                <span class="reporter-method-output">[17:07:46.8857572] Search for element By.name: lastname</span>
+                <span class="reporter-method-output">[17:07:46.9103191] Change value of input: Grotan
+</span>
+                <span class="reporter-method-output">[17:07:46.978497] Changed element input</span>
+                <span class="reporter-method-output">[17:07:46.9789984] Search for element By.name: email</span>
+                <span class="reporter-method-output">[17:07:47.0070717] Change value of input: grotan@test.mail.com
+</span>
+                <span class="reporter-method-output">[17:07:47.1479406] Changed element input</span>
+                <span class="reporter-method-output">[17:07:47.1484443] Search for element By.xpath: //*[@id='customer-form']/footer/button</span>
+                <span class="reporter-method-output">[17:07:47.1694972] Execute script: arguments[0].click()</span>
+                <span class="reporter-method-output">[17:07:48.4070564] Script executed</span>
+                <span class="reporter-method-output">[17:07:48.4070564] Search for element By.name: confirm-addresses</span>
+                <span class="reporter-method-output">[17:07:48.4581889] Search for element By.name: address1</span>
+                <span class="reporter-method-output">[17:07:48.4903051] Change value of input: Soborna, 1
+</span>
+                <span class="reporter-method-output">[17:07:48.5940762] Changed element input</span>
+                <span class="reporter-method-output">[17:07:48.5940762] Search for element By.name: postcode</span>
+                <span class="reporter-method-output">[17:07:48.6241559] Change value of input: 33000
+</span>
+                <span class="reporter-method-output">[17:07:48.697417] Changed element input</span>
+                <span class="reporter-method-output">[17:07:48.697417] Search for element By.name: city</span>
+                <span class="reporter-method-output">[17:07:48.7259867] Change value of input: Rivne
+</span>
+                <span class="reporter-method-output">[17:07:48.7921587] Changed element input</span>
+                <span class="reporter-method-output">[17:07:48.7921587] Search for element By.name: confirm-addresses</span>
+                <span class="reporter-method-output">[17:07:48.8016842] Execute script: arguments[0].click()</span>
+                <span class="reporter-method-output">[17:07:50.070162] Script executed</span>
+                <span class="reporter-method-output">[17:07:50.070162] Search for element By.name: confirmDeliveryOption</span>
+                <span class="reporter-method-output">[17:07:50.12226] Search for element By.name: confirmDeliveryOption</span>
+                <span class="reporter-method-output">[17:07:50.1407481] Click on element button</span>
+                <span class="reporter-method-output">[17:07:51.3797488] Search for element By.cssSelector: #checkout-payment-step > h1:nth-child(1)</span>
+                <span class="reporter-method-output">[17:07:51.415843] Search for element By.id: payment-option-2</span>
+                <span class="reporter-method-output">[17:07:51.4404125] Click on element input</span>
+                <span class="reporter-method-output">[17:07:51.4987701] Search for element By.id: conditions_to_approve[terms-and-conditions]</span>
+                <span class="reporter-method-output">[17:07:51.5213294] Execute script: arguments[0].click()</span>
+                <span class="reporter-method-output">[17:07:51.5328594] Script executed</span>
+                <span class="reporter-method-output">[17:07:51.5333616] Search for element By.xpath: //*[@id='payment-confirmation']/div[1]/button</span>
+                <span class="reporter-method-output">[17:07:51.5549166] Execute script: arguments[0].click()</span>
+                <span class="reporter-method-output">[17:07:52.6918762] Script executed</span>
+                <span class="reporter-method-output">[17:07:52.6918762] Search for element By.xpath: //*[@id='content-hook_order_confirmation']/div/div/div/h3</span>
+                <span class="reporter-method-output">[17:07:52.7299738] Search for element By.xpath: //*[@id='content-hook_order_confirmation']/div/div/div/h3</span>
+                <span class="reporter-method-output">[17:07:52.7675748] Search for element By.xpath: //*[@id='order-items']/div/div/div[3]/div/div[1]</span>
+                <span class="reporter-method-output">[17:07:52.8091799] Search for element By.xpath: //*[@id='order-items']/div/div/div[2]/span</span>
+                <span class="reporter-method-output">[17:07:52.8482822] Search for element By.xpath: //*[@id='order-items']/div/div/div[3]/div/div[2]</span>
+                <span class="reporter-method-output">[17:07:52.8898915] Navigate to http://prestashop-automation.qatestlab.com.ua/</span>
+                <span class="reporter-method-output">[17:07:54.3004067] Search for element By.xpath: //*[@id='content']/section/a</span>
+                <span class="reporter-method-output">[17:07:54.3781094] Execute script: arguments[0].click()</span>
+                <span class="reporter-method-output">[17:07:55.57022] Script executed</span>
+                <span class="reporter-method-output">[17:07:55.57022] Search for element By.xpath: //*[@id='main']/div[1]/h1</span>
+                <span class="reporter-method-output">[17:07:55.6143351] Search for element By.xpath: //*[contains(text(),'Printed Chiffon Dress')]</span>
+                <span class="reporter-method-output">[17:07:55.6373962] Execute script: arguments[0].click()</span>
+                <span class="reporter-method-output">[17:07:56.8833117] Script executed</span>
+                <span class="reporter-method-output">[17:07:56.8833117] Execute script: scroll(0, 350)</span>
+                <span class="reporter-method-output">[17:07:56.8893274] Script executed</span>
+                <span class="reporter-method-output">[17:07:56.8893274] Search for element By.cssSelector: li.nav-item:nth-child(2) > a:nth-child(1)</span>
+                <span class="reporter-method-output">[17:07:56.9605134] Search for element By.cssSelector: li.nav-item:nth-child(2) > a:nth-child(1)</span>
+                <span class="reporter-method-output">[17:07:56.9785612] Click on element a</span>
+                <span class="reporter-method-output">[17:07:57.051251] Search for element By.cssSelector: .h6</span>
+                <span class="reporter-method-output">[17:07:57.6043089] Search for element By.cssSelector: .product-quantities > span:nth-child(2)</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">myprojects.automation.assignment5.tests.PlaceOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, )</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkSiteVersion</span>
+                <span class="method-start">3789 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createNewOrder</span>
+                <span class="method-start">6454 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillInOrderInfo</span>
+                <span class="method-start">12141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24188 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

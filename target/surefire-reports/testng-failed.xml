@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Products Management]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="selenium.browser" value="chrome"/>
+  <test name="Create New Order [Chrome]">
+    <parameter name="selenium.browser" value="chrome"/>
+    <classes>
+      <class name="myprojects.automation.assignment5.tests.PlaceOrderTest"/>
+    </classes>
+  </test> <!-- Create New Order [Chrome] -->
+</suite> <!-- Failed suite [Products Management] -->

@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>TestNG:  Create New Order [Chrome]</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Create New Order [Chrome]</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 19 17:07:33 EEST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>26 seconds (26040 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='myprojects.automation.assignment5.tests.PlaceOrderTest.checkSiteVersion()'><b>checkSiteVersion</b><br>Test class: myprojects.automation.assignment5.tests.PlaceOrderTest<br/>
+<a href="#Output-1990421361" onClick='toggleBox("Output-1990421361", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1990421361" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1990421361">
+[17:07:37.2523653] Navigate to http://prestashop-automation.qatestlab.com.ua/<br/>
+[17:07:39.8218619] Search for element By.cssSelector: #_desktop_currency_selector > div<br/>
+[17:07:39.8755014] Search for element By.xpath: //*[@id='carousel']/ul/li[1]/figure/img<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>myprojects.automation.assignment5.tests.PlaceOrderTest@313ac989</td></tr>
+<tr>
+<td title='myprojects.automation.assignment5.tests.PlaceOrderTest.createNewOrder()'><b>createNewOrder</b><br>Test class: myprojects.automation.assignment5.tests.PlaceOrderTest<br/>
+<a href="#Output-1338958728" onClick='toggleBox("Output-1338958728", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1338958728" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1338958728">
+[17:07:39.9150813] Search for element By.xpath: //*[@id='content']/section/a<br/>
+[17:07:39.9371396] Execute script: arguments[0].click()<br/>
+[17:07:41.0364876] Script executed<br/>
+[17:07:41.0364876] Search for element By.xpath: //*[@id='main']/div[1]/h1<br/>
+[17:07:41.0896254] Search for element By.xpath: //*[@class='thumbnail product-thumbnail']<br/>
+[17:07:41.1126857] Execute script: arguments[0].click()<br/>
+[17:07:42.4334208] Script executed<br/>
+[17:07:42.433923] Search for element By.cssSelector: .btn.btn-primary.add-to-cart<br/>
+[17:07:42.4840617] ACTION: Get information about currently opened product<br/>
+[17:07:42.4845556] Search for element By.cssSelector: .h1<br/>
+[17:07:42.5241589] Search for element By.cssSelector: .current-price > span:nth-child(1)<br/>
+[17:07:42.5632596] Execute script: scroll(0, 350)<br/>
+[17:07:42.5697763] Script executed<br/>
+[17:07:42.5697763] Search for element By.cssSelector: li.nav-item:nth-child(2) > a:nth-child(1)<br/>
+[17:07:42.6259236] Search for element By.cssSelector: li.nav-item:nth-child(2) > a:nth-child(1)<br/>
+[17:07:42.6424828] Click on element a<br/>
+[17:07:42.7086389] Search for element By.cssSelector: .h6<br/>
+[17:07:43.2727797] Search for element By.cssSelector: .product-quantities > span:nth-child(2)<br/>
+[17:07:43.3188842] Search for element By.xpath: //*[@id='add-to-cart-or-refresh']/div[2]/div[1]/div[2]/button<br/>
+[17:07:43.3514698] Click on element button<br/>
+[17:07:43.4071149] Search for element By.xpath: //*[@id='blockcart-modal']/div/div/div[2]/div/div[2]/div/button<br/>
+[17:07:44.3234637] Search for element By.xpath: //*[@id='blockcart-modal']/div/div/div[2]/div/div[2]/div/a<br/>
+[17:07:44.3585551] Click on element a<br/>
+[17:07:45.4262856] Search for element By.cssSelector: i.pull-xs-left<br/>
+[17:07:45.486443] Search for element By.cssSelector: a.label:nth-child(1)<br/>
+[17:07:45.5300568] Search for element By.cssSelector: span.value:nth-child(1)<br/>
+[17:07:45.5731699] Search for element By.cssSelector: .js-cart-line-product-quantity<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>myprojects.automation.assignment5.tests.PlaceOrderTest@313ac989</td></tr>
+<tr>
+<td title='myprojects.automation.assignment5.tests.PlaceOrderTest.fillInOrderInfo()'><b>fillInOrderInfo</b><br>Test class: myprojects.automation.assignment5.tests.PlaceOrderTest<br/>
+<a href="#Output-207988207" onClick='toggleBox("Output-207988207", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-207988207" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-207988207">
+[17:07:45.6022448] Search for element By.xpath: //*[@class='btn btn-primary']<br/>
+[17:07:45.6217969] Execute script: arguments[0].click()<br/>
+[17:07:46.6962605] Script executed<br/>
+[17:07:46.6962605] Search for element By.xpath: //*[@class='custom-radio']<br/>
+[17:07:46.7629342] Search for element By.name: firstname<br/>
+[17:07:46.7950232] Change value of input: Tetiana
+<br/>
+[17:07:46.8857572] Changed element input<br/>
+[17:07:46.8857572] Search for element By.name: lastname<br/>
+[17:07:46.9103191] Change value of input: Grotan
+<br/>
+[17:07:46.978497] Changed element input<br/>
+[17:07:46.9789984] Search for element By.name: email<br/>
+[17:07:47.0070717] Change value of input: grotan@test.mail.com
+<br/>
+[17:07:47.1479406] Changed element input<br/>
+[17:07:47.1484443] Search for element By.xpath: //*[@id='customer-form']/footer/button<br/>
+[17:07:47.1694972] Execute script: arguments[0].click()<br/>
+[17:07:48.4070564] Script executed<br/>
+[17:07:48.4070564] Search for element By.name: confirm-addresses<br/>
+[17:07:48.4581889] Search for element By.name: address1<br/>
+[17:07:48.4903051] Change value of input: Soborna, 1
+<br/>
+[17:07:48.5940762] Changed element input<br/>
+[17:07:48.5940762] Search for element By.name: postcode<br/>
+[17:07:48.6241559] Change value of input: 33000
+<br/>
+[17:07:48.697417] Changed element input<br/>
+[17:07:48.697417] Search for element By.name: city<br/>
+[17:07:48.7259867] Change value of input: Rivne
+<br/>
+[17:07:48.7921587] Changed element input<br/>
+[17:07:48.7921587] Search for element By.name: confirm-addresses<br/>
+[17:07:48.8016842] Execute script: arguments[0].click()<br/>
+[17:07:50.070162] Script executed<br/>
+[17:07:50.070162] Search for element By.name: confirmDeliveryOption<br/>
+[17:07:50.12226] Search for element By.name: confirmDeliveryOption<br/>
+[17:07:50.1407481] Click on element button<br/>
+[17:07:51.3797488] Search for element By.cssSelector: #checkout-payment-step > h1:nth-child(1)<br/>
+[17:07:51.415843] Search for element By.id: payment-option-2<br/>
+[17:07:51.4404125] Click on element input<br/>
+[17:07:51.4987701] Search for element By.id: conditions_to_approve[terms-and-conditions]<br/>
+[17:07:51.5213294] Execute script: arguments[0].click()<br/>
+[17:07:51.5328594] Script executed<br/>
+[17:07:51.5333616] Search for element By.xpath: //*[@id='payment-confirmation']/div[1]/button<br/>
+[17:07:51.5549166] Execute script: arguments[0].click()<br/>
+[17:07:52.6918762] Script executed<br/>
+[17:07:52.6918762] Search for element By.xpath: //*[@id='content-hook_order_confirmation']/div/div/div/h3<br/>
+[17:07:52.7299738] Search for element By.xpath: //*[@id='content-hook_order_confirmation']/div/div/div/h3<br/>
+[17:07:52.7675748] Search for element By.xpath: //*[@id='order-items']/div/div/div[3]/div/div[1]<br/>
+[17:07:52.8091799] Search for element By.xpath: //*[@id='order-items']/div/div/div[2]/span<br/>
+[17:07:52.8482822] Search for element By.xpath: //*[@id='order-items']/div/div/div[3]/div/div[2]<br/>
+[17:07:52.8898915] Navigate to http://prestashop-automation.qatestlab.com.ua/<br/>
+[17:07:54.3004067] Search for element By.xpath: //*[@id='content']/section/a<br/>
+[17:07:54.3781094] Execute script: arguments[0].click()<br/>
+[17:07:55.57022] Script executed<br/>
+[17:07:55.57022] Search for element By.xpath: //*[@id='main']/div[1]/h1<br/>
+[17:07:55.6143351] Search for element By.xpath: //*[contains(text(),'Printed Chiffon Dress')]<br/>
+[17:07:55.6373962] Execute script: arguments[0].click()<br/>
+[17:07:56.8833117] Script executed<br/>
+[17:07:56.8833117] Execute script: scroll(0, 350)<br/>
+[17:07:56.8893274] Script executed<br/>
+[17:07:56.8893274] Search for element By.cssSelector: li.nav-item:nth-child(2) > a:nth-child(1)<br/>
+[17:07:56.9605134] Search for element By.cssSelector: li.nav-item:nth-child(2) > a:nth-child(1)<br/>
+[17:07:56.9785612] Click on element a<br/>
+[17:07:57.051251] Search for element By.cssSelector: .h6<br/>
+[17:07:57.6043089] Search for element By.cssSelector: .product-quantities > span:nth-child(2)<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>myprojects.automation.assignment5.tests.PlaceOrderTest@313ac989</td></tr>
+</table><p>
+</body>
+</html>
